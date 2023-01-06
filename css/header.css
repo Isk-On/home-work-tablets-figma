@@ -1,0 +1,113 @@
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 90px;
+
+  position: absolute;
+}
+
+.logo-and-burger {
+  display: flex;
+  gap: 19px;
+}
+
+.Search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 228px;
+  height: 40px;
+
+  background-color: #fff;
+
+  border: 1px solid #d1dbd6;
+  border-radius: 1000px;
+
+  margin-right: 340px;
+  margin-left: 340px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 25px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+
+  color: var(--green);
+}
+
+.zero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 26px;
+
+  background-color: var(--green);
+  color: #f4f1ed;
+
+  border-radius: 1000px;
+}
+
+.first-coala {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+
+  position: relative;
+  top: 0;
+  left: -71px;
+  z-index: -1;
+}
+
+.text-first-coala {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.btn-first-coala {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  width: 230px;
+  height: 40px;
+
+  background-color: var(--green);
+
+  font-size: 16px;
+  font-weight: 400;
+  color: #cbddbf;
+  font-family: "Open Sans", sans-serif;
+
+  border-radius: 1000px;
+}
+
+.text-first-coala h1 {
+  font-size: 66px;
+  font-weight: 400;
+}
+
+.text-first-coala p {
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 16px;
+  font-weight: 400;
+}

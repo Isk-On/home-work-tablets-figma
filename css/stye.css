@@ -1,0 +1,93 @@
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
+/* font-family: 'Open Sans', sans-serif; для маленького шрифта */
+/* font-family: 'Playfair Display', serif; для заголовок */
+
+:root {
+  --green: #0e2d22;
+  --red: #9e5b54;
+  --grey: #636e72;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f1ed;
+
+  color: #0e2d22;
+}
+
+.container {
+  max-width: 1290px;
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+/* кнопка */
+.rectangular-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  width: 230px;
+  height: 40px;
+
+  background-color: var(--green);
+
+  font-size: 16px;
+  font-weight: 400;
+  color: #cbddbf;
+  font-family: "Open Sans", sans-serif;
+
+  border-radius: 1000px;
+}
+
+.tablets-btn {
+  background-color: #cbddbf;
+
+  color: var(--green);
+
+  cursor: pointer;
+}
+
+.pets-btn {
+  background-color: var(--red);
+
+  border: none;
+
+  font-size: 16px;
+  font-weight: 400;
+
+  padding: 5px 0;
+
+  cursor: pointer;
+}
+
+.world-btn {
+  width: 150px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #cbddbf;
+
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 16px;
+  font-weight: 300;
+
+  border-radius: 1000px;
+
+  cursor: pointer;
+}
